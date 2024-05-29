@@ -1,4 +1,4 @@
-import logging
+puimport logging
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
@@ -13,7 +13,7 @@ import os
 import json
 from .models import *
 
-client = OpenAI(api_key="")
+#openai key
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
