@@ -13,7 +13,7 @@ import os
 import json
 from .models import *
 
-client = OpenAI(api_key="sk-proj-aOL6ULNdbyRG8Dw0HRrDT3BlbkFJa4oJC1pUmlVEJFtkk9Ch")
+client = OpenAI(api_key="chhhuu")
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
