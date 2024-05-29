@@ -85,7 +85,7 @@ def download_audio(link):
 # Function to get transcription of YouTube audio
 def get_transcription(link):
     audio_file = download_audio(link)
-    aai.settings.api_key = "40722351f115436fb131eb6d6cfd5df2"
+    aai.settings.api_key = "your-assembly-api-key"
 
     transcriber = aai.Transcriber()
     try:
