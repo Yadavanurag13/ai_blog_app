@@ -13,7 +13,7 @@ import os
 import json
 from .models import *
 
-client = OpenAI(api_key="chhhuu")
+client = OpenAI(api_key="")
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
