@@ -1,0 +1,4 @@
+Django==3.2.4
+pytube==11.0.1
+assemblyai==2.0.0
+openai==0.10.0
